@@ -1,0 +1,70 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 20px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filters-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filters-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filter-select {
+  width: 130px;
+}
+
+.filter-avatar {
+  background-color: #87d068;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: #555;
+}
+
+.icon-label {
+  margin: 0 4px;
+  font-weight: 500;
+}
+
+.total-text {
+  font-size: 14px;
+  color: #555;
+  white-space: nowrap;
+}
+
+.filter-search {
+  width: 160px;
+}
+
+.filter-date {
+  min-width: 220px;
+}
+
+.filter-checkbox {
+  font-size: 14px;
+}
+
+.clear-btn {
+  padding: 0 8px;
+}

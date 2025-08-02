@@ -1,0 +1,42 @@
+.welcome-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .welcome-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .welcome-text {
+    order: 2;
+  }
+
+  .illustration-box {
+    order: 1;
+    text-align: center;
+  }
+
+  .illustration {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .get-started {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .welcome-text h2 {
+    font-size: 24px !important;
+  }
+
+  .welcome-text h4 {
+    font-size: 18px !important;
+  }
+}
